@@ -1,0 +1,22 @@
+.card {
+    position: relative;
+    min-width: 450px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.6);
+    background-color: #13274F;
+}
+  
+.card-title-container {
+    position: absolute;
+    top: -15px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 200px;
+    background-color: #00FFFF;
+    z-index: 1;
+}
+  
+.card-title {
+    position: relative;
+    z-index: 2;
+    color: #367588;
+}
